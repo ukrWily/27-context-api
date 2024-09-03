@@ -2,23 +2,27 @@
   text-align: center;
   margin: 30px;
 }
-h1{
+h1 {
   font-size: 90px;
 }
-button{
+button {
   margin: 10px;
   padding: 10px 20px;
   border-radius: 7px;
   font-size: 24px;
   font-weight: 700;
   cursor: pointer;
-  transition: all .2s;
+  transition: all 0.2s;
 }
-button:hover{
-  transform: scale(.97);
+button:hover {
+  transform: scale(0.97);
   box-shadow: 3px 3px 3px #999;
 }
-button:active{
-    transform: scale(.9);
+button:active {
+  transform: scale(0.9);
   box-shadow: 3px 3px 3px red;
+}
+input {
+  padding: 5px 10px;
+  font-size: 24px;
 }
